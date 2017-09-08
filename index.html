@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/15.6.1/react-dom.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js" charset="utf-8"></script>
+  <script type="text/babel">
+    function Hello(props){
+      const name = props.name;
+
+      return (
+        <h1 id="Title">
+          Hola {name}
+        </h1>
+      )
+    }
+
+    ReactDOM.render(
+      <Hello name="Platzi" />
+      , document.getElementById('app')
+    );
+
+    setTimeout(
+      () => {
+        ReactDOM.render(
+          <Hello name="Platzi!!!"/>,
+          document.getElementById('app')
+        );
+      }, 2000
+    );
+  </script>
+</body>
+</html>
