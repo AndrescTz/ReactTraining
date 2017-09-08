@@ -1,6 +1,6 @@
-REACT TRAINING
+#REACT TRAINING
 
-#React Components
+React Components
 -----------------
 
 > Will learn how to create React components
