@@ -33,5 +33,6 @@
 * Go temporarily to any commit:
     `git checkout <0d1d7fc32>`
     
-(https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+https://help.github.com/articles/basic-writing-and-formatting-syntax/
+https://stackoverflow.com/questions/4114095/how-to-revert-git-repository-to-a-previous-commit
     
