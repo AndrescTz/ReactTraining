@@ -1,1 +1,1 @@
-"# ReactTraining" 
+# ReactTraining 
